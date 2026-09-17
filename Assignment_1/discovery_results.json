@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Beosound Balance",
+    "hostname": "Beosound-Balance-12345678.local",
+    "ip_address": "192.168.1.123",
+    "service": "_speaker._tcp.local",
+    "port": 80,
+    "txt_records": {
+      "wa": "00:09:A7:12:34:8F",
+      "sn": "12345678",
+      "pt": "2026-08-26T00:02:13Z",
+      "fv": "6.3.0.31",
+      "fn": "Beosound Balance"
+    }
+  }
+]

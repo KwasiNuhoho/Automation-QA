@@ -1,0 +1,20 @@
+============================= test session starts ==============================
+platform linux -- Python 3.14.4, pytest-9.0.2, pluggy-1.6.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/dodzi-nuhoho/Documents/QA_Technical_Assignment_B&O/Assignment_2
+plugins: typeguard-4.4.4
+collecting ... collected 11 items
+
+test_template.py::test_ble_connection_established PASSED                 [  9%]
+test_template.py::test_wifi_provisioning_successful PASSED               [ 18%]
+test_template.py::test_valid_ip_address PASSED                           [ 27%]
+test_template.py::test_device_online PASSED                              [ 36%]
+test_template.py::test_wifi_setup_complete PASSED                        [ 45%]
+test_template.py::test_ssid_is_not_empty PASSED                          [ 54%]
+test_template.py::test_device_id_is_not_empty PASSED                     [ 63%]
+test_template.py::test_mac_address_is_valid PASSED                       [ 72%]
+test_template.py::test_signal_strength_is_within_range PASSED            [ 81%]
+test_template.py::test_setup_fails_without_wifi_provisioning PASSED      [ 90%]
+test_template.py::test_invalid_mac_address_is_rejected PASSED            [100%]
+
+============================== 11 passed in 0.03s ==============================

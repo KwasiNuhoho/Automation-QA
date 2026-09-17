@@ -1,0 +1,17 @@
+============================= test session starts ==============================
+platform linux -- Python 3.14.4, pytest-9.0.2, pluggy-1.6.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/dodzi-nuhoho/Documents/QA_Technical_Assignment_B&O/Assignment_1
+plugins: typeguard-4.4.4
+collecting ... collected 8 items
+
+test_template.py::test_device_is_discoverable PASSED                     [ 12%]
+test_template.py::test_ip_addresses_are_valid PASSED                     [ 25%]
+test_template.py::test_correct_service_advertised PASSED                 [ 37%]
+test_template.py::test_txt_records_are_valid PASSED                      [ 50%]
+test_template.py::test_port_in_valid_range PASSED                        [ 62%]
+test_template.py::test_no_duplicate_hostnames_in_mocked_results PASSED   [ 75%]
+test_template.py::test_duplicate_hostname_conflict_is_detected PASSED    [ 87%]
+test_template.py::test_invalid_mac_address_is_rejected PASSED            [100%]
+
+============================== 8 passed in 0.02s ===============================
